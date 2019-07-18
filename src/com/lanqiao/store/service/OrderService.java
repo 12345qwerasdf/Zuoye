@@ -11,7 +11,6 @@ public class OrderService {
 	public void addOrder(Order order) {
 		orderdao.addOrder(order);
 		
-		
 	}
 	public void updateOrder(String orderNum){
 		orderdao.updateOrder(orderNum);
